@@ -1,0 +1,26 @@
+{
+  "name": "nightwatch_base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "nightwatch": "./node_modules/.bin/nightwatch -e chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikingeducation/nightwatch_base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikingeducation/nightwatch_base/issues"
+  },
+  "homepage": "https://github.com/vikingeducation/nightwatch_base#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "nightwatch": "^0.9.16"
+  }
+}
