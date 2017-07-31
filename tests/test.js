@@ -15,12 +15,23 @@ module.exports = {
       .saveScreenshot("./screenshots/3.jpg")
       .waitForElementVisible(
         "ui-view[ng-if='dashboard()'] label:last-child",
-        1000
+        3000
       )
       .click("ui-view[ng-if='dashboard()'] label:last-child")
-      .pause(1000)
+      .pause(3000)
       .useXpath()
       .click("//*[contains(text(), '2: Testing JavaScript')]")
+      .pause(4000)
+      .useXpath()
+      .click("//*[contains(text(), '21.')]")
+      .pause(4000)
+      .useCss()
+      .waitForElementVisible(
+        "div.lesson-explanation div.lesson-completion img",
+        1000
+      )
+      .click("div.lesson-explanation div.lesson-completion img")
+      .pause(2000)
       .saveScreenshot("./screenshots/4.jpg")
       .end();
   }
