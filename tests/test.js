@@ -13,6 +13,12 @@ module.exports = {
       .submitForm("#new_user")
       .pause(1000)
       .saveScreenshot("./screenshots/3.jpg")
+      .click("input[name='activeTrack']")
+      .pause(5000)
+      // .useXpath()
+      // .click("//*[contains(text(), '2: Testing JavaScript')]")
+      // .pause(1000)
+      // .saveScreenshot("./screenshots/4.jpg")
       .end();
   }
 };
