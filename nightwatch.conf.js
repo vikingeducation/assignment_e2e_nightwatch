@@ -8,8 +8,13 @@ module.exports = {
   selenium: {
     start_process: true,
     server_path: serverPath,
-    port: 4444
+    port: 4444,
+    "cli_args": {
+       "webdriver.chrome.driver": "./bin/chromedriver"
+     }
   },
+
+
 
   test_settings: {
     default: {
