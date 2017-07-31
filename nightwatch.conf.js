@@ -9,9 +9,9 @@ module.exports = {
     start_process: true,
     server_path: serverPath,
     port: 4444,
-    "cli_args": {
-       "webdriver.chrome.driver": "./bin/chromedriver"
-     }
+    // "cli_args": {
+    //    "webdriver.chrome.driver": "./bin/chromedriver"
+    //  }
   },
 
 

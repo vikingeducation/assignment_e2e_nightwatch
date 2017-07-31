@@ -9,12 +9,16 @@ module.exports = {
       .click("//a[text()='Sign In']")
       .useCss()
       .saveScreenshot('screenshots/2.jpg')
-      .setValue('input[name="user_email"]', "edtriplett@gmail.com")
-      .setValue('input[name="user_password"]', "temporary" )
+      .setValue('input[id="user_email"]', "ed.triplett@gmail.com")
+      .setValue('input[id="user_password"]', "temporary" )
+      .click('input[type="submit"]')
+      .pause(2000)
       .saveScreenshot('screenshots/3.jpg')
       .useXpath()
-      .click("//[text()='2: Testing Javascript']")
-
+      .click("//a[//h3[text()='2: Testing Javascript']]")
+      .pause(1000)
+      .saveScreenshot('screenshots/test1.jpg')
+      // .click("//a[text()='Sign In']")
 
 
       .end();
