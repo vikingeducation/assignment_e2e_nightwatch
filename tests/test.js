@@ -5,7 +5,9 @@ module.exports = {
     browser
       .url(browser.launchUrl)
       .saveScreenshot('screenshots/1.jpg')
-      .click('@sign_in')
+      .useXpath()  
+      .click("//a[text()='Sign In']")
+      .useCss()
       .saveScreenshot('screenshots/2.jpg')
 
 
