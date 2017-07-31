@@ -22,17 +22,22 @@ module.exports = {
       .useXpath()
       .click("//*[contains(text(), '2: Testing JavaScript')]")
       .pause(4000)
-      .useXpath()
       .click("//*[contains(text(), '21.')]")
       .pause(4000)
       .useCss()
       .waitForElementVisible(
-        "div.lesson-explanation div.lesson-completion img",
+        "div.lesson-explanation div.lesson-completion img:first-child",
         1000
       )
-      .click("div.lesson-explanation div.lesson-completion img")
+      .click("div.lesson-explanation div.lesson-completion img:first-child")
       .pause(2000)
       .saveScreenshot("./screenshots/4.jpg")
+      .click("img.user-icon")
+      .pause(1000)
+      .click('#account-dropdown-menu a[href="/sign_out"]')
+      .pause(1000)
+      .saveScreenshot("./screenshots/5.jpg")
+      .pause(1000)
       .end();
   }
 };
