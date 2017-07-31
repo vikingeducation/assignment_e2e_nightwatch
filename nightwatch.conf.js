@@ -1,5 +1,7 @@
 const path = require("path");
-const serverPath = path.resolve("./bin/selenium-server-standalone-3.4.0.jar");
+const serverPath = path.resolve(
+  "/usr/share/selenium-server/selenium-server-standalone.jar"
+);
 
 module.exports = {
   src_folders: ["tests"],
@@ -10,7 +12,7 @@ module.exports = {
     server_path: serverPath,
     port: 4444,
     cli_args: {
-      "webdriver.chrome.driver": "./bin/chromedriver"
+      "webdriver.chrome.driver": "/usr/bin/chromedriver"
     }
   },
 
