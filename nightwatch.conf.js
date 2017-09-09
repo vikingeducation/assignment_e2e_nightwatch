@@ -1,5 +1,5 @@
 const path = require('path');
-const serverPath = path.resolve('./bin/selenium-server-standalone-3.4.0.jar');
+const serverPath = path.resolve('./bin/selenium-server-standalone-3.5.3.jar');
 
 module.exports = {
   src_folders: ['tests'],
