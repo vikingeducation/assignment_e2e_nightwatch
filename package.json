@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/nightwatch -e chrome"
+    "start": "./node_modules/.bin/nightwatch -e chrome",
+    "nightwatch": "nightwatch -e chrome"
   },
   "repository": {
     "type": "git",
