@@ -14,7 +14,8 @@ reports/
 screenshots/
 selenium-debug.log
 
+# ----------------------------------------
+# User info
+# ----------------------------------------
 
-
-
-
+config.js

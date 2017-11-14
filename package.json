@@ -4,18 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/nightwatch -e chrome"
+    "start": "./node_modules/.bin/nightwatch -e chrome",
+    "nightwatch": "./node_modules/.bin/nightwatch -e chrome"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vikingeducation/assignment_e2e_nightwatch.git"
+    "url":
+      "git+https://github.com/vikingeducation/assignment_e2e_nightwatch.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vikingeducation/assignment_e2e_nightwatch/issues"
   },
-  "homepage": "https://github.com/vikingeducation/assignment_e2e_nightwatch#readme",
+  "homepage":
+    "https://github.com/vikingeducation/assignment_e2e_nightwatch#readme",
   "dependencies": {
     "nightwatch": "^0.9.16"
   }
