@@ -19,4 +19,4 @@ Highlights:
 - running against a Selenium/WebDriver server
 - programmed with Node.js using CSS and Xpath selectors
 
-by Dennis C  :pizza:
+#### by Dennis C  :pizza:
