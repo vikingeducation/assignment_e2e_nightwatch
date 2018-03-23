@@ -1,3 +1,5 @@
-# assignment_e2e_nightwatch
+# nightwatch_browser_automation_tests
 
-Assignment - Viking Code School exploration via e2e tests with Nightwatch
+E2E testing with Nightwatch on https://www.vikingcodeschool.com/
+
+Tests no longer work, the site is different.
